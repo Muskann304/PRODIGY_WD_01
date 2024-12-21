@@ -1,0 +1,68 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #4CAF50; /* A calming green */
+    color: white;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+#navbar ul li a:hover {
+    background-color: white;
+    color: #4CAF50; /* Match the navbar's green */
+    font-weight: bold;
+}
+
+/* Content section styles */
+#content {
+    padding: 2rem;
+}
+
+#content section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light gray for contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#content section h1 {
+    color: #333; /* Dark gray for readability */
+    font-size: 2rem;
+}
+
+/* Smooth scrolling for links */
+html {
+    scroll-behavior: smooth;
+}
